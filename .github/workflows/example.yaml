@@ -1,0 +1,8 @@
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  warpd:
+    uses: ops42-org/warpd/.github/workflows/warpd.yaml@main

@@ -1,1 +1,1 @@
-# warpd-example-github
+# example-github
