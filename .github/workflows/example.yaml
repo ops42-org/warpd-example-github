@@ -5,6 +5,7 @@ on:
 
 jobs:
   warpd:
+    runs-on: ubuntu-latest
     # uses: ops42-org/warpd/.github/workflows/warpd.yaml@main
     steps:
       - name: Run Warpd
