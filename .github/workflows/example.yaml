@@ -5,4 +5,5 @@ on:
 
 jobs:
   warpd:
-    uses: ops42-org/warpd/.github/workflows/warpd.yaml@main
+    # uses: ops42-org/warpd/.github/workflows/warpd.yaml@main
+    uses: ops42-org/warpd/github-warpd@main
