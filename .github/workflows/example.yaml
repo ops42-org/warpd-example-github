@@ -5,9 +5,14 @@ on:
 
 jobs:
   warpd:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run Warpd
-        id: warpd
-        uses: ops42-org/warpd/.github/workflows/warpd.yaml@main
-    #     uses: ops42-org/warpd/github-warpd@main
+    uses: ops42-org/warpd/.github/workflows/warpd.yaml@main
+    name: Run Warps
+
+  # warpd:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Run Warpd
+  #       id: warpd
+  #       uses: ops42-org/warpd/github-warpd@main
+
+
