@@ -1,2 +1,6 @@
 from colored import fg, attr
-print('This is %spython%s' % (fg(82), attr(0)))
+import time
+
+while (True):
+    print('This is %spython%s...' % (fg(82), attr(0)))
+    time.sleep(3)

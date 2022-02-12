@@ -1,10 +1,8 @@
 build:
   - path: '.'
-    buildpacks:
-      - fob
   - path: 'app2'
-    buildpacks:
-      - cody
+    env:
+      GOOGLE_ENTRYPOINT: python app.py
 
 envMapping:
   - branch: '*'
